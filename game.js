@@ -317,7 +317,7 @@ const score= {
             ctx.strokeText(this.value, cvs.width/2, 50);
             console.log(this.value);
             
-            if(this.value==4){
+            if(this.value==1){
                 
                 window.location.replace("https://sid-2001.github.io/Final-Game-Clue/");
             
