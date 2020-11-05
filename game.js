@@ -318,7 +318,7 @@ const score= {
             console.log(this.value);
             
             if(this.value==1){
-                
+                window.alert("who is the Chirman of Mit");
                 window.location.replace("https://sid-2001.github.io/Final-Game-Clue/");
             
                  ctx.font = "25px Teko";
