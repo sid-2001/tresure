@@ -320,6 +320,7 @@ const score= {
             if(this.value==1){
              window.alert("CLUE-Who is the Chairman of Mit?");
                 window.location.replace("https://sid-2001.github.io/Game-Clue/");
+                  this.reset;
             }
                  ctx.font = "25px Teko";
             ctx.fillText(this.value, 225, 186);
