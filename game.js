@@ -371,7 +371,6 @@ function update(){
     pipes.update();
 }
 
-// LOOP
 function loop(){
     update();
     draw();
