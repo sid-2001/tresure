@@ -318,8 +318,10 @@ const score= {
             console.log(this.value);
             
             if(this.value==1){
+                this.value=0;
                 window.alert("CLUE-who is the Chairman of Mit?");
                 window.location.replace("https://sid-2001.github.io/Game-Clue/");
+                
             
                  ctx.font = "25px Teko";
             ctx.fillText(this.value, 225, 186);
