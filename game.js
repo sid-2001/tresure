@@ -318,10 +318,8 @@ const score= {
             console.log(this.value);
             
             if(this.value==1){
-               
-                window.alert("CLUE-who is the Chairman of Mit?");
+             window.alert("CLUE-Who is the Chairman of Mit?");
                 window.location.replace("https://sid-2001.github.io/Game-Clue/");
-                
             }
                  ctx.font = "25px Teko";
             ctx.fillText(this.value, 225, 186);
@@ -331,10 +329,9 @@ const score= {
             ctx.strokeText(this.best, 225, 228);
                     this.reset;
                 
-            }
             
-        }
-    else if(state.current == state.over){
+            
+        }else if(state.current == state.over){
             // SCORE VALUE
             ctx.font = "25px Teko";
             ctx.fillText(this.value, 225, 186);
@@ -383,3 +380,4 @@ function loop(){
     requestAnimationFrame(loop);
 }
 loop();
+
