@@ -331,7 +331,8 @@ const score= {
                 
             
             
-        }else if(state.current == state.over){
+        }
+        if(state.current == state.over){
             // SCORE VALUE
             ctx.font = "25px Teko";
             ctx.fillText(this.value, 225, 186);
