@@ -319,7 +319,7 @@ const score= {
             
             if(this.value==1){
              window.alert("CLUE-Who is the Chairman of Mit?");
-                window.location.replace("https://prashant0829.github.io/VTH-Game-Clue-2/");
+                window.location.replace("/name");
                   this.reset;
             }
                  ctx.font = "25px Teko";
