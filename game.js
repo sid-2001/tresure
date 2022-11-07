@@ -181,6 +181,8 @@ const bird = {
             }
         }
         
+        
+        
     },
     speedReset : function(){
         this.speed = 0;
@@ -319,7 +321,7 @@ const score= {
             
             if(this.value==1){
              window.alert("CLUE-Who is the Chairman of Mit?");
-                window.location.replace("/name");
+                window.location.replace("https://sid-2001.github.io/Treasure_clue/");
                   this.reset;
             }
                  ctx.font = "25px Teko";
