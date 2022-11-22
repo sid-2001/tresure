@@ -319,7 +319,7 @@ const score= {
             ctx.strokeText(this.value, cvs.width/2, 50);
             console.log(this.value);
             
-            if(this.value>1){
+            if(this.value>2){
            
                 window.location.replace("./Clue1.jpeg");
                   this.reset;
