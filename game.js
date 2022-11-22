@@ -319,9 +319,9 @@ const score= {
             ctx.strokeText(this.value, cvs.width/2, 50);
             console.log(this.value);
             
-            if(this.value==1){
-             window.alert("CLUE-Who is the Chairman of Mit?");
-                window.location.replace("https://sid-2001.github.io/Treasure_clue/");
+            if(this.value>1){
+           
+                window.location.replace("./Clue1.jpeg");
                   this.reset;
             }
                  ctx.font = "25px Teko";
